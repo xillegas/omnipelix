@@ -1,0 +1,80 @@
+.container {
+    position: relative;
+    margin: 20px auto;
+    text-align: left;
+    max-width: 90%;
+    min-width: 500px;
+}
+.container h3 {
+  text-align: left;
+}
+
+.container-cards {
+	display: flex;
+  flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 10px auto;
+  min-width: 90%;
+  min-height: 142px;
+}
+
+.portacard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 252px;
+  height: 141.75px;
+  margin:10px;
+}
+
+.card {
+	position: relative;
+  width: 240px;
+  height: 135px;
+	text-align: center;
+	color: white;
+	padding: 0px;
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+	transition: all 0.3s ease;
+	border-radius: 4px;
+  margin: auto;
+}
+
+.card:hover {
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.809);
+  width: 252px;
+  height: 141.75px;
+  transition: all 0.3s ease;
+}
+/* .card:hover h3 {
+	font-size: 22px;
+	transition: all 0.3s ease;
+} */
+
+#passenger {
+	background: url(../../images/card-pasajero.png);
+	background-size: cover;
+  background-position: center;
+}
+
+#primer {
+  background: url(../../images/primer.jpg);
+	background-size: cover;
+  background-position: bottom;
+}
+
+#amanda {
+  background: url(../../images/amanda.jpg);
+	background-size: cover;
+  background-position: top;
+}
+
+
+#estrella-tierra {
+  background: url(../../images/estrella-tierra.jpg);
+	background-size: cover;
+  background-position: bottom;
+}

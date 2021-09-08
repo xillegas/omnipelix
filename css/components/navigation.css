@@ -1,8 +1,9 @@
 /* barra de navegación Proyecto 3 */
 
 nav {
-	background-color: #3A86FF;
+	background-color: #3a86ff;
 	width: 100%;
+  min-width: 590px;
 	margin: 0;
 	height: 40px;
 }
@@ -11,15 +12,15 @@ nav img {
   position: relative;
   top: 4px;
 	height: 40px;
-	padding-right: 20px;
-	padding-left: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 nav a {
 	color: white;
 	display: block;
 	padding: 10px;
-	background-color: #3A86FF;
+	background-color: #3a86ff;
 	text-decoration: none;
 }
 
@@ -36,13 +37,13 @@ nav li {
 }
 
 nav li a:hover {
-  background-color: #5797ff;
+  background-color: #8338EC;
 }
 
 .active {
-  background-color: #0056E0;
+  background-color: #ff006e;
 }
 
 .active:hover {
-	background-color: #1F75FF;
+  background-color: #FB5607;
 }
